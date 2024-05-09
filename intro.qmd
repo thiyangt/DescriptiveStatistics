@@ -76,13 +76,21 @@ I hope now you get the idea of the definition of the statistics "The science of 
 
 ## Where do we use statistics?
 
-Statistics is used everywhere. 
+Statistics is used everywhere. Several specialized fields have emerged that apply statistical methods to various disciplines. Different terminologies are used to define these specialized fields.
+
 
 ```{r, echo=FALSE}
-Name <- c()
-Description <- c()
-df <- data.frame(Name, Description)
-df |> knitr::kable()
+library(tibble)
+Terminology <- c("Epidemiology", "Astrostatistics", "Biostatistics", "Demography", "Social statistics", "Chemometrics", "Actuarial statistics", "Forensic statistics", "Spatial statistics", "Econometrics", "Jurimetrics", "Psychometrics")
+Field <- c("The study and analysis of the patterns, causes and effects of health and disease conditions", "Applies statistical analysis to the understanding of astronomical data", "Studies biological phenomena", "Statistical study of all populations", "Study human behavior in a social environment", "Science of extracting information from chemical systems by data-driven means","Discipline that deals with assessing the risks in insurance and finance field.", "Studies DNA testing results", "Analysis of spatial data", "Uses economic theory, mathematics, and statistical inference to quantify economic phenomena. ", "Application of probability and statistics to law.", "Applies statistical methods to psychological measurements")
+tf <- tibble(Terminology, Field)
+tf |> knitr::kable()
 ```
 
+> **Exercise 2**
+
+1. Find applications of statistics in different fields.
+
 ##  Why do we need statistics?
+
+
