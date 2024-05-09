@@ -1,0 +1,88 @@
+# Introduction
+
+## Chapter outline
+
+1. What is statistics?
+
+2. Where do we use statistics?
+
+3. Why do we need statistics?
+
+
+
+## What is Statistics?
+
+**Definition**
+
+The science of collecting, analyzing, presenting, and interpreting data.
+
+
+
+
+
+### Data
+
+Data is the key ingredient for statistics. If there is no data, then no statistics. Data can comes in different formats. For example,
+
+1. Tabular data
+
+    Example: A researcher wants to develop a model to predict weight of the elephants. For that, researcher collect following data for elephants: i) weight in kg, ii) Gender, iii) Neck circumference in cm, iv) Front-right foot circumference in cm, and v) Height in cm
+
+2. Image data
+
+    Example: A researcher wants to develop an app to identify whether the bananas are organic or inorganic based on the photographs taken by bananas. For example as shown in Figure xx. In this situation data comes as images.
+
+3. Audio data
+
+    Example: A researcher wants to identify different species bird habitats in [Sinharaja forest](https://whc.unesco.org/en/list/405/). For that, researcher collected sound recordings at different spatial locations of sinharaja forest. Later these audio files are analyzed to extract different bird species sounds.
+  
+  
+4. Video data
+
+    Example: Suppose a researcher wants to establish a traffic light system at Wijerama Junction, Sri Lanka. The  researchers set up video cameras to capture the traffic flow. Here the data comes as video recordings. 
+
+5. Mixture of above for categories denoted by 1, 2, 3 and 4.
+
+    Example: Suppose a reseacher wants to develop a moodel to predict whether the person has ever suffered from COVID-19. In this case the researcher collects demographics information related to person such as age, gender, body mass index (BMI) and chest x-rays of people participate in the survey. In this case we have both Tabular data and Image data.
+    
+> **Exercise 1**
+
+1. Find studies that use tabular data, image data, audio data, video data mixture of above categories.
+
+    Example:
+
+
+    
+    
+
+### Collection
+
+The essential component of statistics is data. In other words, data is the fundamental ingredient for statistics. Therefore the data collection should be done very carefully and precisely.
+
+Just as a chef selects the freshest and finest ingredients to prepare a  delicious meal, statisticians must ensure the data they are going to use for the analysis is relevant, accurate and reliable. In Chapter 2 we will look at data collection methods.
+
+
+### Analyzing
+
+After collecting data we have use suitable statistical methods to identify important relationships between variables, outliers, trends in data.
+
+### Interpreting and presentation of results
+
+This involves creating presenting the results using graphical or summary statistics and deriving meaningful insights and conclusions based on the analysis performed and compiling main findings into reports, newspaper articles, data dashboards so that public or policy holders can using them for decision making process.
+
+
+I hope now you get the idea of the definition of the statistics "The science of collecting, analyzing, presenting, and interpreting data."
+
+
+## Where do we use statistics?
+
+Statistics is used everywhere. 
+
+```{r, echo=FALSE}
+Name <- c()
+Description <- c()
+df <- data.frame(Name, Description)
+df |> knitr::kable()
+```
+
+##  Why do we need statistics?
