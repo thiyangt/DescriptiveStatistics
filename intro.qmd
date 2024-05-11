@@ -2,65 +2,76 @@
 
 ## Chapter outline
 
-1. What is statistics?
+1.  What is statistics?
 
-2. Where do we use statistics?
+2.  Where do we use statistics?
 
-3. Why do we need statistics?
-
-
+3.  Why do we need statistics?
 
 ## What is Statistics?
 
 **Definition**
 
-The science of collecting, analyzing, presenting, and interpreting data.
+The science of collecting, organizing, analyzing, presenting, and interpreting data.
 
+Let's break down the definition of statistics to understand its key components. There are five key components. They are:
 
+1. Data (Section 1.2.1)
 
+2. Collecting (Section 1.2.2)
+
+3. Organizing (Section 1.2.3)
+
+4. Analyzing (Section 1.2.4)
+
+5. Interpreting and presentation of results (Section 1.2.5)
+
+Imagine statistics as the process of cooking a delicious meal. Figure 1 shows how the analogy works:
+
+<!--The anology is to help you to understand the concept. In the exam you should write the definition not the cooking example-->
 
 
 ### Data
 
-Data is the key ingredient for statistics. If there is no data, then no statistics. Data can comes in different formats. For example,
+Data is the key ingredient for statistics. If there is no data, then no statistics. Just as a chef selects the freshest and finest ingredients to prepare a delicious meal, statisticians must ensure the data they are going to use for the analysis is relevant, accurate and reliable. In Chapter 2 we will look at data collection methods. 
 
-1. Tabular data
+Data can comes in different formats. For example,
+
+1.  Tabular data
 
     Example: A researcher wants to develop a model to predict weight of the elephants. For that, researcher collect following data for elephants: i) weight in kg, ii) Gender, iii) Neck circumference in cm, iv) Front-right foot circumference in cm, and v) Height in cm
 
-2. Image data
+2.  Image data
 
     Example: A researcher wants to develop an app to identify whether the bananas are organic or inorganic based on the photographs taken by bananas. For example as shown in Figure xx. In this situation data comes as images.
 
-3. Audio data
+3.  Audio data
 
     Example: A researcher wants to identify different species bird habitats in [Sinharaja forest](https://whc.unesco.org/en/list/405/). For that, researcher collected sound recordings at different spatial locations of sinharaja forest. Later these audio files are analyzed to extract different bird species sounds.
-  
-  
-4. Video data
 
-    Example: Suppose a researcher wants to establish a traffic light system at Wijerama Junction, Sri Lanka. The  researchers set up video cameras to capture the traffic flow. Here the data comes as video recordings. 
+4.  Video data
 
-5. Mixture of above for categories denoted by 1, 2, 3 and 4.
+    Example: Suppose a researcher wants to establish a traffic light system at Wijerama Junction, Sri Lanka. The researchers set up video cameras to capture the traffic flow. Here the data comes as video recordings.
+
+5.  Mixture of above for categories denoted by 1, 2, 3 and 4.
 
     Example: Suppose a reseacher wants to develop a moodel to predict whether the person has ever suffered from COVID-19. In this case the researcher collects demographics information related to person such as age, gender, body mass index (BMI) and chest x-rays of people participate in the survey. In this case we have both Tabular data and Image data.
-    
+
 > **Exercise 1**
 
-1. Find studies that use tabular data, image data, audio data, video data mixture of above categories.
+1.  Find studies that use tabular data, image data, audio data, video data mixture of above categories.
 
     Example:
 
+### Collecting
 
-    
-    
+This is the first step. The data collection should be done correctly with a great care. If the data collection process is faculty, our data is biased and conclusions derived from the data can never be trusted.
 
-### Collection
 
-The essential component of statistics is data. In other words, data is the fundamental ingredient for statistics. Therefore the data collection should be done very carefully and precisely.
 
-Just as a chef selects the freshest and finest ingredients to prepare a  delicious meal, statisticians must ensure the data they are going to use for the analysis is relevant, accurate and reliable. In Chapter 2 we will look at data collection methods.
+### Organizing
 
+The collected data should be organized properly in way that makes data usable. If the data is not properly organized researchers need to spend long hours cleaning data before analyzing data. 
 
 ### Analyzing
 
@@ -70,14 +81,11 @@ After collecting data we have use suitable statistical methods to identify impor
 
 This involves creating presenting the results using graphical or summary statistics and deriving meaningful insights and conclusions based on the analysis performed and compiling main findings into reports, newspaper articles, data dashboards so that public or policy holders can using them for decision making process.
 
-
 I hope now you get the idea of the definition of the statistics "The science of collecting, analyzing, presenting, and interpreting data."
-
 
 ## Where do we use statistics?
 
 Statistics is used everywhere. Several specialized fields have emerged that apply statistical methods to various disciplines. Different terminologies are used to define these specialized fields.
-
 
 ```{r, echo=FALSE}
 library(tibble)
@@ -89,8 +97,24 @@ tf |> knitr::kable()
 
 > **Exercise 2**
 
-1. Find applications of statistics in different fields.
+1.  Find applications of statistics in different fields.
 
-##  Why do we need statistics?
+## Why do we need statistics?
+
+2. To **summarize** large amounts of data into  clear and concise manner.
+
+3. To **simplify complex** data sets into manageable form understandable making it easier to patterns, relationships, trends, etc. offering clear overview of the data.
+
+4. To **transform** raw data into meaningful insights and actionable conclusions.
+
+5. To make inferences about populations based on sample data.
+
+6. To provide foundation for for data-driven decision making process.
+
+7. To provide foundation for formulating suitable policies.
+
+8. To provide quantitative measurements for objective assessment.
+
+9. To make predictions and forecasts
 
 
